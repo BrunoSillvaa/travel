@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --GradientColor: linear-gradient(to right, #10b5cb, #0073a8);
+  --PrimaryColor: #0073a8;
+  --SecondaryColor: #10b5cb;
+  --WhiteColor: #ffffff;
+  --BlackColor: #1b2d36;
+  --TextColor: #58585f;
+  --WhiteColorDeam: #ededed;
+  --GreyTextColor: #bebebe;
+  --InputColor: #efefef;
+  --BodyColor: #f0f0f6;
+  --CardBgColor: #e1e1eb;
+}
+
+body {
+  height: 100vh;
+  background: var(--BodyColor);
+}

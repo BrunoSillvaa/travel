@@ -1,0 +1,66 @@
+.navbar-container {
+  background: var(--WhiteColorDeam);
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  padding: 1rem 3rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  .logo-wrapper {
+    display: flex;
+    gap: .5rem;
+
+    .icon {
+      font-size: 2rem;
+      color: var(--PrimaryColor);
+      cursor: pointer;
+    }
+
+    .name {
+      color: var(--BlackColor);
+    }
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .list{
+      display: flex;
+      gap: 2rem;
+  
+      .item {
+        list-style: none;
+        
+        a {
+          color: var(--TextColor);
+          text-decoration: none;
+          font-weight: 600;
+        }
+      }
+    }
+    
+    button {
+      background: var(--GradientColor);
+      padding: .6rem 1.5rem;
+      border-radius: 3rem;
+      outline: none;
+      border: none;
+      cursor: pointer;
+  
+      &:hover {
+        background: var(--SecondaryColor);
+      }
+  
+      a {
+        color: var(--WhiteColor);
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+}

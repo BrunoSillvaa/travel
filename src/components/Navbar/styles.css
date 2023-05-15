@@ -1,0 +1,56 @@
+.navbar-container {
+  background: var(--WhiteColorDeam);
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  padding: 1rem 3rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.navbar-container .logo-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+.navbar-container .logo-wrapper .icon {
+  font-size: 2rem;
+  color: var(--PrimaryColor);
+  cursor: pointer;
+}
+.navbar-container .logo-wrapper .name {
+  color: var(--BlackColor);
+}
+.navbar-container .navbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.navbar-container .navbar .list {
+  display: flex;
+  gap: 2rem;
+}
+.navbar-container .navbar .list .item {
+  list-style: none;
+}
+.navbar-container .navbar .list .item a {
+  color: var(--TextColor);
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar-container .navbar button {
+  background: var(--GradientColor);
+  padding: 0.6rem 1.5rem;
+  border-radius: 3rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.navbar-container .navbar button:hover {
+  background: var(--SecondaryColor);
+}
+.navbar-container .navbar button a {
+  color: var(--WhiteColor);
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
