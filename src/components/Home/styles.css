@@ -8,7 +8,6 @@
   position: relative;
 }
 .home .overlay {
-  background: rgb(47, 106, 127);
   z-index: 50;
   height: 100%;
   width: 100%;
@@ -135,4 +134,17 @@
 }
 .home .home-content form .more-filters:active {
   scale: 0.9;
+}
+.home .home-content .links {
+  display: flex;
+  gap: 10px;
+  margin: -20px 10px;
+}
+.home .home-content .links .icon {
+  color: White;
+  font-size: 24px;
+  cursor: pointer;
+}
+.home .home-content .links .icon:hover {
+  scale: 1.1;
 }/*# sourceMappingURL=styles.css.map */

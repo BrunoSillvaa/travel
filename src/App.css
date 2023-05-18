@@ -23,3 +23,7 @@ body {
   height: 100vh;
   background: var(--BodyColor);
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}

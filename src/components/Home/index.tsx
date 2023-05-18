@@ -2,8 +2,9 @@ import './styles.css'
 import video from '../../assets/video.mp4'
 
 import { GrLocation } from 'react-icons/gr'
-import { MdAttachMoney, MdFilterListAlt } from 'react-icons/md'
 import { useState } from 'react'
+import { MdAttachMoney, MdFilterListAlt } from 'react-icons/md'
+import { TbBrandFacebook, TbBrandInstagram, TbBrandTripadvisor } from 'react-icons/tb'
 
 export function Home() {
   const [value, setValue] = useState(500)
@@ -65,10 +66,16 @@ export function Home() {
           </div>
 
           <button className='more-filters'>
-            <MdFilterListAlt size={20}/>
+            <MdFilterListAlt size={20} />
             More Filters
           </button>
         </form>
+
+        <div className='links'>
+          <TbBrandFacebook className='icon' />
+          <TbBrandInstagram className='icon' />
+          <TbBrandTripadvisor className='icon' />
+        </div>
       </div>
     </section>
   )
